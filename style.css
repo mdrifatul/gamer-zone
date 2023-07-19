@@ -249,11 +249,12 @@ footer {
   align-items: center;
 }
 .footer-description p,
-.privacy-setting p {
+.privacy-setting p,
+.copy-right {
   padding: 20px 15px;
 }
 .privacy-setting p,
-.copy-right {
+.copy-right p {
   color: rgba(255, 255, 255, 0.6);
 }
 .social-media i {
