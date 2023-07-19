@@ -144,6 +144,46 @@ nav {
   width: 250px;
   height: 300px;
 }
+.card img:hover {
+  /* background: rgba(255, 255, 255, 0.4); */
+}
+
+.card:hover .play {
+  opacity: 1;
+}
+.card .play {
+  position: relative;
+}
+
+.play {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  bottom: 65%;
+  height: 0;
+  /* width: 250px; */
+  /* height: 300px; */
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  /* background: rgba(255, 255, 255, 0.4); */
+  cursor: pointer;
+}
+
+.play .watch-now {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: var(--pink);
+  padding: 10px;
+  font-size: 20px;
+}
+.card i {
+  position: relative;
+  font-size: 40px;
+  z-index: 100;
+}
 .card p {
   font-size: 12px;
   text-align: left;
