@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700;800&display=swap");
+
+:root {
+  --white: #fff;
+  --pink: #ff42a5;
+  /* --pink-purple: linear-gradient(180deg, #f948b2 0%, #8758f1 100%); */
+  --sky: #4ec5f7;
+  --gray: #534c64;
+  --deep-purple: #0b0223;
+}
+
+* {
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+}
+button {
+  border-radius: 48px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+  padding: 20px 35px;
+  margin-right: 10px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  text-transform: uppercase;
+}
+/* nav css start */
+.nav-section {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  height: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.game-icon {
+  display: flex;
+  align-items: center;
+}
+.game-icon img {
+  width: 60px;
+  height: 30px;
+  margin-right: 13px;
+}
+.game-icon h1 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.game-icon h1 span {
+  color: var(--pink);
+}
+.nav-item {
+  display: flex;
+}
+.nav-item a {
+  text-decoration: none;
+  color: var(--gray);
+  padding: 10px 20px 10px 0;
+}
+.follow {
+  color: var(--gray);
+  padding: 10px 10px 10px 20px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+.follow a {
+  font-size: 18px;
+  padding: 0px 6px 6px 6px;
+}
+/* nav css end */
+.banner {
+  display: flex;
+}
+.banner-container {
+  background-image: url("images/Group\ 14.png");
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-text h1 {
+  /* color: var(--black); */
+  font-size: 38px;
+}
+.rogue-btn {
+  background: var(--sky);
+}
+.banner-text span {
+  display: block;
+  font-size: 80px;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.banner-text p {
+  color: var(--gray);
+  line-height: 1.8rem;
+}
+
+.banner-img img {
+  width: 500px;
+  height: 80vh;
+  margin-left: 65px;
+}
+
+/* online games css start */
+.online-games {
+  text-align: center;
+  padding: 50px;
+}
+.online-games h1 {
+  color: var(--black);
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.online-games h1 span,
+.play-title h1 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.online-games p {
+  color: var(--gray);
+}
+.games-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 250px;
+  height: 300px;
+  padding: 30px 10px;
+}
+.card img {
+  width: 250px;
+  height: 300px;
+}
+.card p {
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10px;
+}
+/* online games css end */
+
+/* play section start */
+.play-games {
+  display: flex;
+  height: 80vh;
+  margin: 50px 0px;
+}
+.play-container {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.play-title {
+  width: 310px;
+  padding: 50px 150px;
+}
+.play-title h1 {
+  font-size: 38px;
+  color: var(--black);
+}
+.play-title h1 span {
+  display: block;
+}
+.play-title p {
+  color: var(--gray);
+  margin-top: 10px;
+}
+.horse-poster img {
+  width: 65%;
+  margin-left: 80px;
+}
+.girls-poster img {
+  width: 30%;
+  position: relative;
+  bottom: 180px;
+}
+
+/* play section end */
+
+/* game category css start */
+.category {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 50px 0px;
+  margin-bottom: 20px;
+}
+.category-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 10px 10px;
+  font-weight: 600;
+}
+.category-list:hover {
+  color: var(--pink);
+  border: 1px solid var(--pink);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.category-list img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* game category css end */
+
+/* footer css start */
+
+footer {
+  background-color: var(--deep-purple);
+  color: white;
+  text-align: center;
+  padding: 50px 0px 100px 50px;
+}
+.footer-games {
+  width: 50%;
+  margin: 0 auto;
+}
+.game-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer-description,
+.privacy-setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-description p,
+.privacy-setting p {
+  padding: 20px 15px;
+}
+.privacy-setting p,
+.copy-right {
+  color: rgba(255, 255, 255, 0.6);
+}
+.social-media i {
+  font-size: 30px;
+  padding: 0px 20px;
+}
+
+/* footer css end */
+
+/* responsive css */
+
+@media screen and (max-width: 576px) {
+  .nav-section {
+    box-shadow: none;
+  }
+  nav {
+    width: 90%;
+    height: 40vh;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game-icon {
+    margin-bottom: 20px;
+  }
+  .nav-item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .follow {
+    margin-top: 20px;
+  }
+  .banner-container {
+    width: 85%;
+  }
+  .banner {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    width: 90%;
+  }
+  .banner-img img {
+    margin-left: 0px;
+    padding: 10px 40px;
+    width: 80%;
+    height: 300px;
+  }
+  .online-games {
+    padding: auto 10px;
+  }
+  .online-games h1 {
+    width: 100%;
+    font-size: 23px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .games-item {
+    flex-direction: column;
+  }
+  .play-games {
+    flex-direction: column;
+    height: auto;
+  }
+  .play-container {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .play-title h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .play-title {
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .horse-poster img {
+    width: 60%;
+    padding-left: 30px;
+  }
+  .girls-poster {
+    height: 0px;
+  }
+  .girls-poster img {
+    bottom: 120px;
+    left: 60px;
+  }
+  .games-category {
+    flex-direction: column;
+  }
+  .category {
+    width: 100%;
+  }
+  .category-list {
+    padding: 2px;
+    margin: 12px 5px;
+    font-size: 12px;
+  }
+  .category-list img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+  footer {
+    padding: 30px 0 30px 0;
+  }
+  .footer-games {
+    width: 100%;
+    flex-direction: column;
+  }
+  .game-icon {
+    margin: 0;
+  }
+  .footer-description,
+  .social-media,
+  .privacy-setting,
+  .copy-right {
+    width: 80%;
+    flex-wrap: wrap;
+    margin: 0 auto 30px auto;
+  }
+}
