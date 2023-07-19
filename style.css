@@ -230,7 +230,7 @@ footer {
   background-color: var(--deep-purple);
   color: white;
   text-align: center;
-  padding: 50px 0px 100px 50px;
+  padding: 50px 50px 80px 50px;
 }
 .footer-games {
   width: 50%;
@@ -242,14 +242,19 @@ footer {
   align-items: center;
   padding: 30px;
 }
+
 .footer-description,
 .privacy-setting {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer-description p,
+.footer-description {
+}
 .privacy-setting p,
+.footer-description p {
+  padding: 10px 10px;
+}
 .copy-right {
   padding: 20px 15px;
 }
@@ -260,6 +265,7 @@ footer {
 .social-media i {
   font-size: 30px;
   padding: 0px 20px;
+  margin: 20px 0px;
 }
 
 /* footer css end */
