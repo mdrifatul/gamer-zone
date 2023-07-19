@@ -249,8 +249,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.footer-description {
-}
 .privacy-setting p,
 .footer-description p {
   padding: 10px 10px;
@@ -387,5 +385,73 @@ footer {
     width: 80%;
     flex-wrap: wrap;
     margin: 0 auto 30px auto;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  nav {
+    width: 95%;
+  }
+  .banner {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .banner-img img {
+    margin-left: 0;
+  }
+  .banner-container {
+    width: 80%;
+  }
+  .games-item {
+    flex-wrap: wrap;
+  }
+  .play-games {
+    flex-direction: column;
+  }
+  .play-title {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .play-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .horse-poster {
+    margin: 50px 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .horse-poster img {
+    width: 50%;
+  }
+  .girls-poster img {
+    bottom: 230px;
+    left: 120px;
+  }
+  .games-category {
+    overflow: hidden;
+    padding-top: 250px;
+  }
+  .category {
+    width: 100%;
+  }
+  .category-list {
+    padding: 10px 15px;
+    margin: 12px 10px;
+    font-size: 16px;
+  }
+  .category-list img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .footer-games {
+    width: 95%;
+    margin: 0 auto;
   }
 }
